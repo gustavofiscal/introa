@@ -1,0 +1,17 @@
+<script>
+ 
+    prompt("Write your tweet");
+    
+    var text= text
+    
+    if(text > 140) { 
+      
+      confrim("You your tweet is too long");
+      
+    }else{
+      
+       prompt("You can keep typing"); } 
+     
+    
+    
+</script> 

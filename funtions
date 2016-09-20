@@ -1,0 +1,23 @@
+<script>
+ 
+    //y = (x/38 for man, 25 for women) * 100
+    function amountofsugardaily(pAmountofsugar); {
+    
+    var dailySuagr = (dailyFoodamount);
+    
+    var man = ((dailysugar/38)*100);
+    var women = ((dailySugar/25)*100);
+   prompt = ("Are you a man or a woman?");
+    if (they are a man)
+        ("How many sugar is in the food")
+        prompt(dailysugar/38)*100);
+        else
+            
+            (they are a woman)
+            ("How much sugar is in the food)
+             prompt(dailysugar/25)*100);
+            
+        
+        
+    
+</script>    

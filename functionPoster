@@ -1,21 +1,21 @@
 <script>
  //I=(P*r*t)
     
-    function Interest(Principle, Rate, Time) {
-        var Principle = (Principle*1);
+    function Interest(Principal, Rate, Time) {
+        var Principal = (Principal*1);
         var Rate = (Rate/100);
         var Time = (Time*1);
-        var total = Principle*Rate*Time;
-        var interest = Principle - total;
-        var final = Principle - interest;
+        var total = Principal*Rate*Time;
+        var interest = Principal - total;
+        var final = Principal - interest;
         var monthly = Time*12;
-        var xfinal = (final/monthly);
+        var xfinal = Math.round(final/monthly);
         console.log("The amount of money you will pay in interest monthly would be:" + xfinal + " " + "dollars");
     }
     
     //call
     var prompt1 = prompt("Please tell me how much you are lending");
-    var prompt2 = prompt("Please tell me how much percent is your intrest rate ");
+    var prompt2 = prompt("Please tell me how much percent is your interest rate ");
     var prompt3 = prompt("Please tell me the number of years");
         Interest(prompt1, prompt2, prompt3);
     

@@ -1,0 +1,84 @@
+<html>
+<head></head>
+<body>
+<canvas id="myCanvas" width="450" height="500"></canvas>
+<script>
+    
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    
+    ctx.fillStyle = "#141611";
+    ctx.fillRect(0,0,450,500);
+    ctx.fillStyle = "#F6EEEB";
+    ctx.fillRect(5,5,440,350);
+    ctx.fillStyle = "#C7BDBB";
+    ctx.fillRect(75,225,370,150);
+    ctx.fillStyle = "#817775";
+    ctx.fillRect(100,5,150,30);
+    ctx.fillStyle = "#EEE7E1";
+    ctx.fillRect(100,215,150,170);
+    ctx.fillStyle = "#F4112D";
+    ctx.fillRect(325,225,15,75);
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#CBC1BF"
+    ctx.arc(180,300,50,0,2*Math.PI);
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.moveTo(100,185);
+    ctx.lineTo(110,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(100,200);
+    ctx.lineTo(125,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(100,215);
+    ctx.lineTo(140,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(115,215);
+    ctx.lineTo(155,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(130,215);
+    ctx.lineTo(170,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(145,215);
+    ctx.lineTo(185,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(160,215);
+    ctx.lineTo(200,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(175,215);
+    ctx.lineTo(215,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(190,215);
+    ctx.lineTo(230,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(205,215);
+    ctx.lineTo(245,175);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(220,215);
+    ctx.lineTo(245,190);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(235,215);
+    ctx.lineTo(245,205);
+    ctx.stroke();
+   
+    
+   
+    
+    
+    
+    
+     
+ </script>

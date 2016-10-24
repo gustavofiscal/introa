@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>    
+<body>
+<script>    
+    
+    var string = prompt("Write your String.");    
+    var count = 0;
+    for(var i = 0; string.length > i; i++){
+    if(string.charAt(i) == 'c'){
+        ++count; 
+    }
+}
+console.log(count);  
+    
+</script>    
+</body>    
+<html> 

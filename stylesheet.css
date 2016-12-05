@@ -1,0 +1,46 @@
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #FFFFFF;
+}
+
+
+#photoWrapper {
+	width: 50%;
+	margin-left: 25%;
+	background-color: #FFFFFF;
+	padding: 10px 10px 10px 10px;
+}
+#thePhoto {
+	width: 100%;
+}
+button {
+	margin-top: 10px;
+	background: #40627C;
+	color: white;
+}
+#forwardBtn {
+	position: static;
+	float: right;
+}
+.centerMe {
+	text-align: center;
+	color: #26393D;
+}
+.bigWrapper {
+	background-color: #D74B4B;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+h1 {
+	font-family: 'Damion', cursive;
+}
+#piechart {
+	margin-left: 25%;
+}
+
+	
+
+	

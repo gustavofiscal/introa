@@ -1,6 +1,6 @@
 var imageArray = [
-"https://www.planwallpaper.com/static/images/MerryChristmasCard2012.png", "https://hdwallpapershdpics.com/wp-content/uploads/2016/11/christmastree_nw.png", 
-"https://www.fraserinstitute.org/sites/default/files/field/image/gifts.jpg",      "https://pathtoyourhealth.com/wp-content/uploads/2015/12/christmas-food-wallpapers-1920x1200.jpg", "https://mummyandthecuties.files.wordpress.com/2013/12/poundland-picture-1.png",
+"http://www.planwallpaper.com/static/images/MerryChristmasCard2012.png", "http://hdwallpapershdpics.com/wp-content/uploads/2016/11/christmastree_nw.png", 
+"https://www.fraserinstitute.org/sites/default/files/field/image/gifts.jpg",      "http://pathtoyourhealth.com/wp-content/uploads/2015/12/christmas-food-wallpapers-1920x1200.jpg", "https://mummyandthecuties.files.wordpress.com/2013/12/poundland-picture-1.png",
 ];
 var currentIndex = 0;
 
